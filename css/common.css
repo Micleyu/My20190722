@@ -1,0 +1,59 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+body { 
+	margin:0;padding-top:0;min-width:1200px;font-size:14px;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif, SimSun;
+	color:#333; 
+	border: none;
+}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,div{margin:0;padding:0}
+fieldset,img{border:none}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal}
+ul,li{list-style-type:none;}
+input{padding-top:0; outline:none;padding-bottom:0;}
+input::-moz-focus-inner{border:none;padding:0}
+select,input{vertical-align:middle;appearance: none;-moz-appearance: none;-webkit-appearance: none;}
+select,input,textarea{font-size:12px;margin:0; border: none;appearance: none;-moz-appearance: none;-webkit-appearance: none;}
+input[type="text"],input[type="password"],textarea{outline-style:none;-webkit-appearance:none}
+input, select{  outline: medium none;  }
+select::-ms-expand { display: none; }
+textarea{resize:none}
+table{border-collapse:collapse}
+a{ text-decoration:none; color:#333;}
+img {
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+}
+iframe{ border:0;}
+.fl{ float:left}
+.fr{ float:right}
+/* .fll{font-weight: normal;}
+.frr{font-weight: normal;} */
+.clearfix:after{content:"";display:block;height:0;visibility:hidden;clear:both}
+.clearfix{zoom:1}
+.wrapper{width:1190px;margin: 0 auto;}
+.wrapper-auto{width:1190px;margin: 0 auto;}
+select,textarea,input{
+  /*解决表单宽度不一致的问题*/
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (max-width:1190px){
+    .wrapper-auto{
+        width: 1100px;
+    }
+}
+@media screen and (max-width:1100px){
+    .wrapper-auto{
+        width: 1000px;
+    }
+}
+@media screen and (max-width:1000px){
+    .wrapper-auto{
+        width: 900px;
+    }
+}
