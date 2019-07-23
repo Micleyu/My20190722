@@ -13,7 +13,33 @@ function navFixed() {
 }
 
 window.onscroll = function(){
-    navFixed()
+    navFixed();
+    var currentScroolTop=document.documentElement.scrollTop || document.body.scrollTop;
+    
+    
+    eleTop1=$('.about').offset().top;
+    eleTop2=$('.case').offset().top;
+    eleTop3=$('.plan').offset().top;
+    eleTop4=$('.comment').offset().top;
+    eleTop5=$('.history').offset().top;
+    
+    if((currentScroolTop+$(window).height())>=eleTop1 ){
+    
+        $('.about-btn').parent().addClass('active').siblings().removeClass('active');
+    }
+    if((currentScroolTop+$(window).height())>=eleTop2){
+        $('.case-btn').parent().addClass('active').siblings().removeClass('active');
+    }
+    if((currentScroolTop+$(window).height())>=eleTop3){
+        $('.plan-btn').parent().addClass('active').siblings().removeClass('active');
+    }
+    if((currentScroolTop+$(window).height())>=eleTop4){
+        $('.comment-btn').parent().addClass('active').siblings().removeClass('active');
+    }
+    if((currentScroolTop+$(window).height())>=eleTop5){
+        $('.history-btn').parent().addClass('active').siblings().removeClass('active');
+    }
+    
 };
 
 // 
