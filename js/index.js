@@ -17,28 +17,27 @@ window.onscroll = function(){
     var currentScroolTop=document.documentElement.scrollTop || document.body.scrollTop;
     
     
-    eleTop1=$('.about').offset().top;
-    eleTop2=$('.case').offset().top;
-    eleTop3=$('.plan').offset().top;
-    eleTop4=$('.comment').offset().top;
-    eleTop5=$('.history').offset().top;
-    
-    if((currentScroolTop+$(window).height())>=eleTop1 ){
-    
-        $('.about-btn').parent().addClass('active').siblings().removeClass('active');
-    }
-    if((currentScroolTop+$(window).height())>=eleTop2){
-        $('.case-btn').parent().addClass('active').siblings().removeClass('active');
-    }
-    if((currentScroolTop+$(window).height())>=eleTop3){
-        $('.plan-btn').parent().addClass('active').siblings().removeClass('active');
-    }
-    if((currentScroolTop+$(window).height())>=eleTop4){
-        $('.comment-btn').parent().addClass('active').siblings().removeClass('active');
-    }
-    if((currentScroolTop+$(window).height())>=eleTop5){
-        $('.history-btn').parent().addClass('active').siblings().removeClass('active');
-    }
+        // eleTop1=$('.about').offset().top;
+        // eleTop2=$('.case').offset().top;
+        // eleTop3=$('.plan').offset().top;
+        // eleTop4=$('.comment').offset().top;
+        // eleTop5=$('.history').offset().top;
+        
+        // if((currentScroolTop)>=eleTop1-$(window).height() ){
+        //     $('.about-btn').parent().addClass('active').siblings().removeClass('active');
+        // }
+        // if((currentScroolTop)>=eleTop2-$(window).height()){
+        //     $('.case-btn').parent().addClass('active').siblings().removeClass('active');
+        // }
+        // if((currentScroolTop)>=eleTop3-$(window).height()){
+        //     $('.plan-btn').parent().addClass('active').siblings().removeClass('active');
+        // }
+        // if((currentScroolTop)>=eleTop4-$(window).height()){
+        //     $('.comment-btn').parent().addClass('active').siblings().removeClass('active');
+        // }
+        // if((currentScroolTop)>=eleTop5-$(window).height()){
+        //     $('.history-btn').parent().addClass('active').siblings().removeClass('active');
+        // }
     
 };
 
