@@ -13,7 +13,7 @@ body{
 .top .top-left-box li{
     float: left;
     margin-right: 30px;
-    color:#999;
+    color:#333;
 }
 .top .top-left-box li a{
     color:#f36e20;
@@ -27,7 +27,7 @@ body{
     
 }
 .top .top-left-box .top-fourth-item a{
-   color:#999;  
+   color:#666;  
 }
 .top .top-left-box .top-fourth-item a:hover{
     color:#f36e20;
@@ -39,17 +39,17 @@ body{
 }
 .top-right-box li a {
     overflow: hidden;
-    color:#999;
+    color:#666;
 }
 .top-right-box li a:hover{
     text-decoration: underline;
 }
 .top-right-box li  i{
     /* vertical-align: middle; */
-    color:#999;
+    color:#666;
 }
 .top-right-box li span{
-    color:#999;
+    color:#666;
 }
 
 
@@ -88,7 +88,7 @@ body{
     color:#fff;
     font-weight: bold;
     text-align: center;
-    margin: 18px 0 30px;
+    margin: 20px 0 30px;
 }
 .headerban-pers-info{
     position: absolute;
@@ -107,16 +107,16 @@ body{
 }
 .headerban-pers-info li p{
     color:#fff;
+    padding-top:14px; 
 }
 .headerban-pers-price{
     color:#f36e20;
     font-weight: bold;
     font-size:18px;
-}
-.headerban-pers-price{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 35px;
 }
+
 .headerban-nav {
     height: 45px;
     background: #616160;
@@ -135,6 +135,9 @@ body{
 .headerban-nav .headerban-nav-left li:hover{
     background: #f36e20;
     
+}
+.headerban-nav .headerban-nav-left li.active{
+    background: #f36e20;
 }
 .headerban-nav .headerban-nav-left li a{
     display: block;
@@ -226,7 +229,7 @@ body{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    padding: 30px 20px 35px 20px;
+    padding: 30px 20px 37px;
     overflow: hidden;
 }
 .common-tit{
@@ -240,6 +243,7 @@ body{
     height: 18px;
     background-color:#f13a3a; 
     vertical-align: middle;
+    margin-right: 10px;
 }
 .common-tit span{
     vertical-align: middle;
@@ -249,7 +253,7 @@ body{
     color:#666;
     float: right;
     font-weight:normal;
-    margin-top:8px;
+    margin-top:4px;
 }
 .about-left img{
     display: block;
@@ -262,15 +266,16 @@ body{
 .about-left h4{
     font-size:24px;
     font-weight: bold;
-    padding-top:10px;
+    padding-top:11px;
 }
 .about-left h4 span{
     font-size:14px;
     font-weight: normal;
 }
 .about-left p{
-    margin-top:15px; 
+    margin-top:21px; 
     font-weight: 14px;
+    height: 12px;
 }
 .about-left p span{
     color:#999;
@@ -283,7 +288,7 @@ body{
     /* box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box; */
-    padding: 25px 20px;
+    padding: 23px 20px 22px 18px;
     
 }
 .about-left p i{
@@ -292,9 +297,11 @@ body{
 .about-right h4{
     color:#999;
     font-size: 14px;
+    height: 15px;
 }
 .about-right ul li{
-    margin-top:8px;
+    margin-top:14px;
+    height: 15px;
 }
 .about-right ul li p{
     width: 355px;
@@ -315,7 +322,10 @@ body{
 
 .about-way h4{
     color:#999;
-    margin: 17px 0 15px
+    margin: 19px 0 14px
+}
+.about-way p{
+    line-height: 24px;
 }
 
 
@@ -341,6 +351,9 @@ body{
     background-size:100%;
     overflow: hidden;
     height: 163px;
+}
+.case-content-imgbox>div:first-child{
+    background:rgba(0,0,0,.5);
 }
 .case-content-imgbox div{
     float: left;
@@ -368,7 +381,7 @@ body{
     color:#f37831;
 }
 .case-content li:hover{
-    box-shadow: 0 0 10px 5px #f4f4f4;
+    box-shadow: 0 0 12px 5px #f5f5f5;
 
 }
 .case-content li:hover .case-content-imgbox div{
@@ -385,11 +398,15 @@ body{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    padding: 30px 20px 20px;
+    padding: 30px 20px 21px;
 }
 .plan-content li{
     padding:20px;
     border:1px solid #ececec;
+    border-bottom:0;
+}
+.plan-content li:last-child{
+    border-bottom:1px solid #ececec;
 }
 .plan-content-left{
     display: block;
@@ -450,7 +467,7 @@ body{
     overflow: hidden;
 }
 .plan-content li:hover{
-    box-shadow: 0 0 20px 3px #f4f4f4;
+    box-shadow: 0 0 16px 6px #f4f4f4;
 }
 .plan-content li:hover .plan-content-right h4{
     color:#f36e20;
@@ -486,7 +503,10 @@ body{
 }
 .comment-centent ul li{
     overflow: hidden;
-    padding:20px 0 0;
+    padding:22px 0 0;
+}
+.comment-centent ul li:first-child{
+    padding-top:30px;
 }
 .comment-centent ul li img{
     display: block;
@@ -495,6 +515,8 @@ body{
 }
 .comment-centent ul li h4{
     font-size:16px;
+    height:16px;
+    margin-bottom: 17px;
 }
 .comment-centent ul li h4 span{
     color:#f36f20;
@@ -504,6 +526,7 @@ body{
     font-style:normal;
     color:#999;
     font-size: 13px;
+    font-weight: 400;
 }
 .comment-centent ul li p{
     width: 810px;
@@ -511,6 +534,7 @@ body{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+    line-height: 24px;
     
 }
 .comment-centent ul li div.fl{
