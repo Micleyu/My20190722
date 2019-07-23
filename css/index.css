@@ -99,7 +99,10 @@ body{
 .headerban-pers-info li{
     float: left;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 60px;
+}
+.headerban-pers-info li:last-child{
+    margin-right:0;
 }
 .headerban-pers-info li b{
     font-size: 24px;
