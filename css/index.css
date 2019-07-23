@@ -419,9 +419,11 @@ body{
     color:#333;
     font-size:18px;
     margin:10px 0 15px ;  
+    height: 18px;
 }
 .plan-content-right p{
     width: 430px;
+    line-height: 24px;
 }
 .plan-content-right-name{
     width: 430px;
